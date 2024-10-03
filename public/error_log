@@ -1,0 +1,4 @@
+[14-Aug-2024 05:02:53 UTC] PHP Fatal error:  Cannot redeclare Webkul\UVDesk\CoreFrameworkBundle\Controller\Ticket::__construct() in /home2/sunsenzi/test.sunsenz.com/vendor/uvdesk/core-framework/Controller/Ticket.php on line 102
+[14-Aug-2024 05:02:58 UTC] PHP Fatal error:  Cannot redeclare Webkul\UVDesk\CoreFrameworkBundle\Controller\Ticket::__construct() in /home2/sunsenzi/test.sunsenz.com/vendor/uvdesk/core-framework/Controller/Ticket.php on line 102
+[21-Aug-2024 05:15:13 UTC] PHP Fatal error:  Cannot redeclare Webkul\UVDesk\CoreFrameworkBundle\Controller\Ticket::__construct() in /home2/sunsenzi/test.sunsenz.com/vendor/uvdesk/core-framework/Controller/Ticket.php on line 113
+[21-Aug-2024 05:16:55 UTC] PHP Fatal error:  Cannot redeclare Webkul\UVDesk\CoreFrameworkBundle\Controller\Ticket::__construct() in /home2/sunsenzi/test.sunsenz.com/vendor/uvdesk/core-framework/Controller/Ticket.php on line 113

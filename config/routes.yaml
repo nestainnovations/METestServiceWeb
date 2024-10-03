@@ -1,0 +1,14 @@
+uvdesk:
+    resource: .
+    type: uvdesk
+uvdesk_extensions:
+    resource: .
+    type: uvdesk_extensions
+helpdesk_mc_details:
+    path: /helpdesk/mcform
+    controller: Webkul\UVDesk\CoreFrameworkBundle\Controller\TicketController::fetchCustomerDetailsAction
+    methods: POST
+
+
+
+
