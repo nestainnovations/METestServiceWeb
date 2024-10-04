@@ -62,7 +62,20 @@ security:
             logout:
                 path: helpdesk_customer_logout
                 target: helpdesk_customer_login
-    
+        
+        main:
+            provider: user_provider
+            form_login:
+                use_referer: true
+                login_path: helpdesk_member_handle_login
+                check_path: helpdesk_member_handle_login
+                default_target_path: helpdesk_member_dashboard
+                always_use_default_target_path: true
+            remember_me:
+                secret: '%kernel.secret%'
+                lifetime: 15552000   # 180 days
+                path: /
+                
     access_control:
         - { path: /%uvdesk_site_path.member_prefix%/login, roles: [IS_AUTHENTICATED_REMEMBERED, IS_AUTHENTICATED_ANONYMOUSLY] }
         - { path: /%uvdesk_site_path.member_prefix%/create-account, roles: [IS_AUTHENTICATED_REMEMBERED, IS_AUTHENTICATED_ANONYMOUSLY] }
